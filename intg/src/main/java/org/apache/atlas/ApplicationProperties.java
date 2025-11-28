@@ -51,6 +51,20 @@ public final class ApplicationProperties extends PropertiesConfiguration {
     public static final String  INDEX_MAP_NAME_CONF             = "atlas.graph.index.search.map-name";
     public static final String  SOLR_WAIT_SEARCHER_CONF         = "atlas.graph.index.search.solr.wait-searcher";
     public static final String  ELASTICSEARCH_INDEX_NAME_CONF   = "atlas.graph.index.search.elasticsearch.index-name";
+    
+    // Vector search Elasticsearch configuration
+    public static final String  ELASTICSEARCH_VECTOR_SEARCH_HOSTS       = "atlas.discovery.elasticsearch.hosts";
+    public static final String  ELASTICSEARCH_VECTOR_SEARCH_PORT        = "atlas.discovery.elasticsearch.port";
+    public static final String  ELASTICSEARCH_VECTOR_SEARCH_USERNAME    = "atlas.discovery.elasticsearch.username";
+    public static final String  ELASTICSEARCH_VECTOR_SEARCH_PASSWORD    = "atlas.discovery.elasticsearch.password";
+    public static final String  ELASTICSEARCH_VECTOR_SEARCH_SCHEME      = "atlas.discovery.elasticsearch.scheme";
+    public static final String  ELASTICSEARCH_VECTOR_SEARCH_TIMEOUT_MS  = "atlas.discovery.elasticsearch.timeout.ms";
+    
+    public static final String  DEFAULT_ELASTICSEARCH_HOSTS       = "localhost";
+    public static final int     DEFAULT_ELASTICSEARCH_PORT        = 9200;
+    public static final String  DEFAULT_ELASTICSEARCH_SCHEME      = "http";
+    public static final int     DEFAULT_ELASTICSEARCH_TIMEOUT_MS  = 30000;
+    
     public static final String  INDEX_RECOVERY_CONF             = "atlas.index.recovery.enable";
     public static final String  ENABLE_FULLTEXT_SEARCH_CONF     = "atlas.search.fulltext.enable";
     public static final String  ENABLE_FREETEXT_SEARCH_CONF     = "atlas.search.freetext.enable";

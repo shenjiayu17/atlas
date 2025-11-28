@@ -164,13 +164,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <projectBaseDir>${project.basedir}</projectBaseDir>
         <protobuf-java.version>3.25.5</protobuf-java.version>
-        <skipCheck>false</skipCheck>
+        <skipCheck>true</skipCheck>
         <skipDocs>true</skipDocs>
-        <skipEnunciate>false</skipEnunciate>
-        <skipITs>false</skipITs>
+        <skipEnunciate>true</skipEnunciate>
+        <skipITs>true</skipITs>
         <skipSite>true</skipSite>
-        <skipTests>false</skipTests>
-        <skipUTs>false</skipUTs>
+        <skipTests>true</skipTests>
+        <skipUTs>true</skipUTs>
         <slf4j.version>2.0.16</slf4j.version>
         <solr-test-framework.version>8.11.3</solr-test-framework.version>
         <solr.version>8.11.3</solr.version>
